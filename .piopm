@@ -1,0 +1,12 @@
+{
+  "type": "platform", 
+  "name": "trqdfcorestm32", 
+  "version": "1.0.0", 
+  "spec": {
+    "owner": null, 
+    "id": null, 
+    "name": "platform-trqdfcorestm32", 
+    "requirements": null, 
+    "uri": "https://github.com/triqadafi/platform-trqdfcorestm32.git"
+  }
+}

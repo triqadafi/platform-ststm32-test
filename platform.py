@@ -21,7 +21,7 @@ from platformio.managers.platform import PlatformBase
 
 IS_WINDOWS = sys.platform.startswith("win")
 
-class Ststm32Platform(PlatformBase):
+class Trqdfcorestm32Platform(PlatformBase):
 
     def configure_default_packages(self, variables, targets):
         board = variables.get("board")
@@ -50,6 +50,8 @@ class Ststm32Platform(PlatformBase):
                 self.packages["toolchain-gccarmnoneeabi"]["version"] = "~1.90201.0"
                 self.packages["framework-cmsis"]["version"] = "~2.50700.0"
                 self.packages["framework-cmsis"]["optional"] = False
+
+                self.frameworks["arduino"]["package"] = "framework-trqdfcore-stm32-arduinocore"
 
         if "mbed" in frameworks:
             deprecated_boards_file = os.path.join(
