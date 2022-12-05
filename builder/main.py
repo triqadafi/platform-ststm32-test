@@ -291,8 +291,14 @@ elif upload_protocol == "hid":
 
     env.Replace(
         __configure_upload_port=__configure_upload_port,
-        UPLOADER="hid-flash",
-        UPLOADCMD='$UPLOADER "$SOURCES" "${__configure_upload_port(__env__)}"'
+        # UPLOADER="hid-flash",
+        UPLOADER=join(
+            '"%s"' % platform.get_package_dir("tool-trqdfcore") or "",
+            "win", "trqdf-hid-flash"),
+        UPLOADERFLAGS=[ "-ide"
+        ],
+
+        UPLOADCMD='$UPLOADER "$SOURCES" -p="${__configure_upload_port(__env__)}" $UPLOADERFLAGS'
     )
     upload_actions = [
         env.VerboseAction(env.AutodetectUploadPort, "Looking for upload port..."),
