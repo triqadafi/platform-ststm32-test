@@ -308,6 +308,12 @@
       "owner": "platformio",
       "version": "~2.20701.0"
     },
+    "tool-trqdfcore": {
+      "type": "uploader",
+      "optional": true,
+      "owner": "platformio",
+      "version": "~1.0.0"
+    },
     "tool-stm32duino": {
       "type": "uploader",
       "optional": true,
