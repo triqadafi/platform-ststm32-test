@@ -1,6 +1,6 @@
 {
-  "name": "trqdfcorestm32",
-  "title": "TRQDFCore STM32",
+  "name": "tqdfcorestm32",
+  "title": "TQDFCore STM32",
   "description": "fiCore is optimized framework for Triqadafi's Boards. Based on version 15.4.1 (ststm32)",
   "homepage": "https://triqada.fi/",
   "license": "Apache-2.0",
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/triqadafi/platform-trqdfcorestm32.git"
+    "url": "https://github.com/triqadafi/platform-tqdfcorestm32.git"
   },
   "version": "15.4.1",
   "frameworks": {
@@ -70,7 +70,7 @@
     }
   },
   "packages": {
-    "framework-trqdfcore-stm32-arduinocore": {
+    "framework-tqdfcore-stm32-arduinocore": {
       "type": "framework",
       "optional": true,
       "owner": "platformio",
@@ -308,7 +308,7 @@
       "owner": "platformio",
       "version": "~2.20701.0"
     },
-    "tool-trqdfcore": {
+    "tool-tqdfcore": {
       "type": "uploader",
       "optional": true,
       "owner": "platformio",

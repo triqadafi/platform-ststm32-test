@@ -293,8 +293,8 @@ elif upload_protocol == "hid":
         __configure_upload_port=__configure_upload_port,
         # UPLOADER="hid-flash",
         UPLOADER=join(
-            '"%s"' % platform.get_package_dir("tool-trqdfcore") or "",
-            "win", "trqdf-hid-flash"),
+            '"%s"' % platform.get_package_dir("tool-tqdfcore") or "",
+            "win", "tqdf-hid-flash"),
         UPLOADERFLAGS=[ "-ide"
         ],
 

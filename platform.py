@@ -51,7 +51,7 @@ class Trqdfcorestm32Platform(PlatformBase):
                 self.packages["framework-cmsis"]["version"] = "~2.50700.0"
                 self.packages["framework-cmsis"]["optional"] = False
 
-                self.frameworks["arduino"]["package"] = "framework-trqdfcore-stm32-arduinocore"
+                self.frameworks["arduino"]["package"] = "framework-tqdfcore-stm32-arduinocore"
 
         if "mbed" in frameworks:
             deprecated_boards_file = os.path.join(

@@ -22,7 +22,7 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "TRQDF STM32F401CC",
+  "name": "TQDF Watch mk6.X",
   "upload": {
     "maximum_ram_size": 65536,
     "maximum_size": 262144,
@@ -37,5 +37,5 @@
     ]
   },
   "url": "https://www.triqada.fi/",
-  "vendor": "TRQDF"
+  "vendor": "TQDF"
 }
