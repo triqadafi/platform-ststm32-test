@@ -49,7 +49,7 @@
       "title": "libopencm3"
     },
     "arduino": {
-      "package": "framework-arduinoststm32",
+      "package": "framework-tqdfcore-stm32-arduinocore",
       "script": "builder/frameworks/arduino.py",
       "description": "Arduino Wiring-based Framework allows writing cross-platform software to control devices attached to a wide range of Arduino boards to create all kinds of creative coding, interactive objects, spaces or physical experiences",
       "homepage": "http://arduino.cc/en/Reference/HomePage",
