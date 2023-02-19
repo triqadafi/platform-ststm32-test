@@ -294,7 +294,7 @@ elif upload_protocol == "hid":
         # UPLOADER="hid-flash",
         UPLOADER=join(
             '"%s"' % platform.get_package_dir("tool-tqdfcore") or "",
-            "win", "tqdf-hid-flash"),
+            "win", "tqdf-tools-stm32"),
         UPLOADERFLAGS=[ "-ide"
         ],
 
