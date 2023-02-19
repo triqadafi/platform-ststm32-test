@@ -43,7 +43,7 @@
     "stm32cube",
     "zephyr"
   ],
-  "name": "TQDF Watch mk5.X",
+  "name": "Watch TQDF mk5",
   "upload": {
     "maximum_ram_size": 20480,
     "maximum_size": 131072,

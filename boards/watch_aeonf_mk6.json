@@ -22,7 +22,7 @@
     "stm32cube",
     "libopencm3"
   ],
-  "name": "TQDF Watch mk6.X",
+  "name": "Watch AEONF mk6",
   "upload": {
     "maximum_ram_size": 65536,
     "maximum_size": 262144,
